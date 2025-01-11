@@ -80,7 +80,6 @@ Create a .env file in the backend directory:
 DB_USER=your_db_user
 DB_PASSWORD=your_db_password
 DB_NAME=your_db_name
-CLOUD_SQL_CONNECTION_NAME=your_cloud_sql_connection_name
 OPENAI_API_KEY=your_openai_api_key
 Run the Backend Server
 
@@ -127,7 +126,7 @@ Database Setup
 Set Up Google Cloud SQL
 
 14.
-Create a MySQL instance on Google Cloud SQL.
+Create a MySQL instance.
 Configure network and authentication.
 Initialize the Database
 
@@ -155,47 +154,3 @@ Provide Feedback
 Like or dislike products to help the system refine future recommendations.
 Explore Products
 
-
-We welcome contributions to enhance the functionality and features of this project. To contribute:
-
-Fork the Repository
-
-Click on the "Fork" button at the top right of the repository page.
-
-Clone Your Fork
-
-bash
-Copy code
-git clone https://github.com/yourusername/product-recommender-system.git
-Create a Branch
-
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make Your Changes
-
-Follow the existing code style and conventions.
-Write clear and concise commit messages.
-Push to Your Fork
-
-bash
-Copy code
-git add .
-git commit -m "Add your commit message here"
-git push origin feature/your-feature-name
-Create a Pull Request
-
-Go to the original repository and click on "Pull Requests."
-Submit your pull request for review.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-OpenAI for providing the GPT models and API access.
-Google Cloud Platform for hosting and database services.
-Contributors who have helped in developing and improving this project.
-Community for support and inspiration.
-Feel free to reach out if you have any questions or need assistance with the setup.
-
-
-Discord: russki_boi_vlad
